@@ -3,15 +3,17 @@
 int main(int argc, char const *argv[])
 {
     /* Suma de Gauss */
-    int n, suma, i;
+    int num, suma, i, total;
+    printf ("SUMA DE GAUSS");
     printf ("Ingrese un numero entero: ");
-    scanf ("%d", &n);
+    scanf ("%d", &num);
     
-    for ( i = 1; i < n; i++)
+    for ( i=1; i<num; i++)
     {
         suma=suma+i;
+        total=suma+num;
     }
-    printf("Suma total: %d" ,suma);
-    
+    printf("Suma total: %d" , total);
+
     return 0;
 }
